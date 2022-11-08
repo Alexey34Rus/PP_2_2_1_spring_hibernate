@@ -37,14 +37,10 @@ public class Car {
     public int getSeries() {return series;}
     public void setSeries(int series) {this.series = series;}
 
-    public User getUser(User user) {
-        return user;
+    public User getUser(User user) {return user;
     }
 
-    public User setUser(User user) {
-        this.user = user;
-        return user;
-    }
+    public User setUser(User user) {this.user = user;}
 
     @Override
     public String toString() {
